@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personalized Diet Plans | DiabetesMonitor</title>
+    <link rel="stylesheet" href="styles1.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">DiabetesMonitor</div>
+            <ul>
+                <li><a href="#">Dashboard</a></li>
+                <li><a href="#">Reports</a></li>
+                <li><a href="#" class="active">Diet Plans</a></li>
+                <li><a href="#">Settings</a></li>
+                <li><a href="#">Profile</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <div id="app-container">
+        <aside>
+            <ul>
+                <li><a href="healthdata.html"><span class="icon">📝</span> Health Data Input</a></li>
+                <li><a href="ai_health_analysis.html"><span class="icon">🤖</span> AI Health Analysis</a></li>
+                <li class="active"><a href="diet.html"><span class="icon">🍎</span> Personalized Diet Plans</a></li>
+                <li><a href="educational.html"><span class="icon">📚</span> Educational Content</a></li>
+                <li><a href="#"><span class="icon">📊</span> Dashboard</a></li>
+            </ul>
+        </aside>
+        
+        <main>
+            <h1>Personalized Diet Plans</h1>
+            
+            <section id="description-block">
+                <strong>Description:</strong> Provides meal recommendations based on your health data.
+            </section>
+            
+            <section id="meal-plan-section">
+                <header id="meal-plan-header">
+                    <h2>This Week's Meal Plan</h2>
+                    <p>Updated on: <time datetime="2025-03-15">March 15, 2025</time></p>
+                    <div id="plan-stats">
+                        <div>
+                            <span>1,800</span>
+                            <span>Daily Calories</span>
+                        </div>
+                        <div>
+                            <span>45%</span>
+                            <span>Carbs</span>
+                        </div>
+                        <div>
+                            <span>30%</span>
+                            <span>Protein</span>
+                        </div>
+                        <div>
+                            <span>25%</span>
+                            <span>Fat</span>
+                        </div>
+                    </div>
+                </header>
+                
+                <article id="day-plan">
+                    <h3>Monday</h3>
+                    <section id="meals">
+                        <div class="meal">
+                            <h4>Breakfast</h4>
+                            <p>Greek yogurt with berries and a sprinkle of nuts</p>
+                            <ul>
+                                <li>Plain Greek yogurt (1 cup)</li>
+                                <li>Mixed berries (1/2 cup)</li>
+                                <li>Walnuts (1 tbsp)</li>
+                                <li>Cinnamon (to taste)</li>
+                            </ul>
+                            <p><strong>Nutritional value:</strong> 245 calories, 15g protein, 20g carbs (5g fiber), 12g fat</p>
+                        </div>
+                        
+                        <div class="meal">
+                            <h4>Lunch</h4>
+                            <p>Grilled chicken salad with olive oil and vinegar dressing</p>
+                            <ul>
+                                <li>Grilled chicken breast (4 oz)</li>
+                                <li>Mixed greens (2 cups)</li>
+                                <li>Cherry tomatoes (1/2 cup)</li>
+                                <li>Cucumber (1/2 cup, sliced)</li>
+                                <li>Bell pepper (1/4 cup, diced)</li>
+                                <li>Olive oil (1 tbsp) and vinegar dressing</li>
+                            </ul>
+                            <p><strong>Nutritional value:</strong> 320 calories, 35g protein, 10g carbs (3g fiber), 15g fat</p>
+                        </div>
+                        
+                        <div class="meal">
+                            <h4>Dinner</h4>
+                            <p>Baked salmon with roasted vegetables and quinoa</p>
+                            <ul>
+                                <li>Baked salmon (4 oz)</li>
+                                <li>Quinoa (1/2 cup, cooked)</li>
+                                <li>Broccoli (1 cup, roasted)</li>
+                                <li>Carrots (1/2 cup, roasted)</li>
+                                <li>Olive oil (1 tsp)</li>
+                                <li>Lemon juice and herbs</li>
+                            </ul>
+                            <p><strong>Nutritional value:</strong> 415 calories, 30g protein, 35g carbs (6g fiber), 18g fat</p>
+                        </div>
+                        
+                        <div class="meal">
+                            <h4>Snacks (2)</h4>
+                            <ul>
+                                <li>Apple with 1 tbsp almond butter (180 calories)</li>
+                                <li>Carrot sticks with 2 tbsp hummus (100 calories)</li>
+                            </ul>
+                        </div>
+                    </section>
+                </article>
+                
+                <section id="ai-insights">
+                    <h3>AI Dietary Insights</h3>
+                    <p>Based on your recent blood sugar readings, we've adjusted your meal plan to include more fiber and fewer simple carbohydrates. Your morning readings suggest that a protein-rich breakfast helps maintain stable glucose levels throughout the day.</p>
+                    <div id="recommendations">
+                        <div>
+                            <h4>Foods to Include</h4>
+                            <ul>
+                                <li>Leafy greens</li>
+                                <li>Berries</li>
+                                <li>Fatty fish</li>
+                                <li>Nuts and seeds</li>
+                                <li>Greek yogurt</li>
+                            </ul>
+                        </div>
+                        <div>
+                            <h4>Foods to Limit</h4>
+                            <ul>
+                                <li>White bread</li>
+                                <li>Sugary beverages</li>
+                                <li>Processed snacks</li>
+                                <li>White rice</li>
+                                <li>Sweetened cereals</li>
+                            </ul>
+                        </div>
+                    </div>
+                </section>
+                
+                <footer id="action-section">
+                    <button>Generate Full Week Plan</button>
+                    <button>Customize Meal Preferences</button>
+                    <button>Print Meal Plan</button>
+                </footer>
+            </section>
+        </main>
+    </div>
+</body>
+</html>
