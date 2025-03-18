@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Health Data Analysis</title>
+    <link rel="stylesheet" href="styles1.css">
+</head>
+<body>
+    <nav>
+        <div id="logo">DiabetesMonitor</div>
+        <ul>
+            <li><a href="#">Dashboard</a></li>
+            <li><a href="#" id="active-nav">Reports</a></li>
+            <li><a href="#">Settings</a></li>
+            <li><a href="#">Profile</a></li>
+        </ul>
+    </nav>
+    
+    <div id="main-container">
+        <aside>
+            <ul>
+                <li><a href="healthdata.html"><span>📝</span> Health Data Input</a></li>
+                <li id="active-menu"><a href="ai_health_analysis.html"><span>🤖</span> AI Health Analysis</a></li>
+                <li><a href="diet.html"><span>🍎</span> Personalized Diet Plans</a></li>
+                <li><a href="educational.html"><span>📚</span> Educational Content</a></li>
+                <li><a href="#"><span>📊</span> Dashboard</a></li>
+            </ul>
+        </aside>
+        
+        <main>
+            <h1>AI Health Data Analysis</h1>
+            
+            <section id="description">
+                <strong>Description:</strong> AI processes user-entered data to provide insights.
+            </section>
+            
+            <section id="analysis">
+                <section id="blood-sugar">
+                    <h2>Blood Sugar Trends</h2>
+                    <div id="chart">
+                        <img src="placeholder-chart.jpg" alt="Blood Sugar Trend Chart">
+                    </div>
+                    <section id="insights">
+                        <h3>AI Insights</h3>
+                        <p>Your blood sugar levels have been relatively stable in the morning but show fluctuations after lunch. Consider adjusting your mid-day carbohydrate intake.</p>
+                        <ul>
+                            <li>Reduce simple carbohydrates at lunch</li>
+                            <li>Consider taking a short walk after eating</li>
+                            <li>Space out carbohydrate consumption throughout the day</li>
+                        </ul>
+                    </section>
+                </section>
+                
+                <section id="patterns">
+                    <h2>Pattern Recognition</h2>
+                    <section id="pattern-grid">
+                        <section>
+                            <h4>Morning Spike</h4>
+                            <p>Detected a consistent rise in blood sugar between 7-9am</p>
+                            <span id="high-confidence">Confidence: High</span>
+                        </section>
+                        <section>
+                            <h4>Exercise Impact</h4>
+                            <p>Blood sugar levels decrease by an average of 12% after recorded exercise</p>
+                            <span id="medium-confidence">Confidence: Medium</span>
+                        </section>
+                        <section>
+                            <h4>Medication Timing</h4>
+                            <p>Taking medication 30 minutes before meals shows better regulation</p>
+                            <span id="high-confidence">Confidence: High</span>
+                        </section>
+                        <section>
+                            <h4>Sleep Correlation</h4>
+                            <p>Nights with less than 6 hours of sleep correlate with higher morning readings</p>
+                            <span id="medium-confidence">Confidence: Medium</span>
+                        </section>
+                    </section>
+                </section>
+                
+                <section id="health-trends">
+                    <h2>Health Trends Analysis</h2>
+                    <section id="stats">
+                        <section>
+                            <span id="improved">126</span>
+                            <span>Average Blood Sugar</span>
+                            <span>↓ 7mg/dL from last month</span>
+                        </section>
+                        <section>
+                            <span id="neutral">83%</span>
+                            <span>Within Target Range</span>
+                            <span>↑ 5% from last month</span>
+                        </section>
+                        <section>
+                            <span id="attention">3</span>
+                            <span>Low Sugar Events</span>
+                            <span>↓ 2 from last month</span>
+                        </section>
+                    </section>
+                    <section id="summary">
+                        <h3>AI-Generated Summary</h3>
+                        <p>Your diabetes management has shown improvement over the past 30 days. Continued adherence to medication schedules and diet plans is recommended. The AI system has detected a positive correlation between your increased water intake and more stable blood sugar readings.</p>
+                    </section>
+                </section>
+                
+                <section id="actions">
+                    <button id="primary-btn">Generate Detailed Report</button>
+                    <button id="secondary-btn">Share With Healthcare Provider</button>
+                    <button id="tertiary-btn">Download Raw Data</button>
+                </section>
+            </section>
+        </main>
+    </div>
+</body>
+</html>
