@@ -1,0 +1,46 @@
+/* Center the form on the page */
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Full viewport height */
+  margin: 0;
+  background-color: #f8f9fa; /* Light background */
+}
+
+/* Style the login container */
+.login-container {
+  width: 350px; /* Adjust width */
+  height: 350px; /* Square shape */
+  background: white;
+  padding: 30px;
+  border-radius: 10px; /* Slightly rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+/* Style input fields */
+.login-container input {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Style the login button */
+.login-container button {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff; /* Blue button */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+/* Button hover effect */
+.login-container button:hover {
+  background-color: #0056b3;
+}
